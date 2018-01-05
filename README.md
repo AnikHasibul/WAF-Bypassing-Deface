@@ -1,10 +1,10 @@
 # WAF Bypassing Deface (Or maybe an inappropriate title to express!)
 This repository contains scripts that can be used to deface such websites that supports php but no web shells!<br>
 Well, pretty confusing right? Let's make it more clear with examples because example is better than concept!<br>
-Assume, you are uploading shell through uploader in a site but all functionalities that shell has are triggering the firewall or not letting the shell run, then this will be useful to atleast deface in the public_html directory.<br>
+Assume, you are uploading shell through uploader in a site but some restricted functionalities that the particular shell has are triggering the firewall or not letting the shell run, then this will be useful to atleast deface in the public_html directory.<br>
 the usage is below!
 # Usage:
-First, upload your deface page(let it's name is hacked.html)<br>
+Firstly, upload your deface page(let it's name is hacked.html)<br>
 Secondly, upload the a.php and b.php file<br>
 Thirdly, open the a.php file in the server<br>
 Fourthly, copy the texts from the text box in a.php and paste it in the source file of b.php and run the b.php to and you are done!<br>
