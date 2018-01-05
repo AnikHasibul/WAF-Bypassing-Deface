@@ -7,10 +7,10 @@ the usage is below!
 Firstly, upload your deface page(let it's name is hacked.html)<br>
 Secondly, upload the a.php and don't upload b.php file<br>
 Thirdly, open the a.php file in the server<br>
-Fourthly, copy the texts from the text box in a.php and paste it in the source file of b.php. Now upload and run the b.php to and you are done!<br>
+Fourthly, copy the texts from the text box in a.php and paste it in the source file of b.php. Now upload and run the b.php in server and you are done!<br>
 Finally, open b.php(before you run it, change the required info as per given instruction both in here and the b.php file itself!) respectively.<br>
 Done!<br>
 If any problem arises, Issues tab is available!
 # N.B:
-This will work only when php code is executed in the server! The concept is simply using the copy function of php to copy deface page from
+This will work only when php code is executed in the server(both windows and linux) and also there is permission to upload files in the public_html dir! The concept is simply using the copy function of php to copy deface page from
 sub directory to the main directory!
